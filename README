@@ -1,5 +1,7 @@
 READ ENTIRE README or IF LAZY GO TO THE ASCII PENGUIN
 
+Written by Alex Manelis <amanelis@gmail.com>
+
 ZTBot, written by Alex Manelis <amanelis@gmail.com>
 This is a twitter bot designed to be run with cron
 on a php server.
