@@ -1,12 +1,10 @@
 READ ENTIRE README or IF LAZY GO TO THE ASCII PENGUIN
 
-Written by Alex Manelis <amanelis@gmail.com>
-
 ZTBot, written by Alex Manelis <amanelis@gmail.com>
 This is a twitter bot designed to be run with cron
 on a php server.
 
-There are only two files that need to be edited before
+There is only one file that needs to be edited before
 you can use the twitter bot. Add your user name and 
 password to this file:
 
@@ -27,6 +25,7 @@ function in zandermane_bot.php.
 \___)=(___/
 FOR THE LAZY READING IMPAIRED
 
+*******************************************************
 CONFIGURE YOUR BOT:
 FILE: config.inc.php
 LINE: the whole file is 3 lines, get a clue
@@ -36,18 +35,20 @@ DESCRIPTION: this should be your bots username:password
 in place of the 'single quotes'
 
 
+*******************************************************
 ADD YOUR OWN DAMN QUOTES:
 FILE: zandermane_bot.php
-LINE: 18
+LINE: 12
 EX: $q_array[0] = "I am a moron";
 DESCRIPTION: Add more then just one, at least 15
 
 
+*******************************************************
 MAIN FUNCTION CALL AND TWITTER SEARCH STRING
 This is what will make your bot tweet certain 
 search catagories. 
 FILE: zandermane_bot.php
-LINE: 68
+LINE: 80
 EX: $search = "beer";
 DESCRIPTION: change this to what you want your bot
 to search for and tweet back at. Should preferably 
