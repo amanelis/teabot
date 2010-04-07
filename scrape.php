@@ -1,11 +1,11 @@
 <?PHP
-//include the dom class
+//include the dom class.
 require_once("dom.class.php");
 
-//include twitter api class
+//include twitter api class.
 require_once("twit.class.php");
 
-//include config file
+//include config file.
 require_once("config.inc.php");
 
 /*
