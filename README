@@ -61,4 +61,3 @@ EX: $search = "beer";
 DESCRIPTION: change this to what you want your bot
 to search for and tweet back at. Should preferably 
 match whatever stupid quotes you have.
-
