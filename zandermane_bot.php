@@ -10,16 +10,18 @@ function getQuote(){
 	$q_array = array();
 
 	$q_array[0] = "I like to drink tea! Do you like tea?";
-	$q_array[1] = "I like to drink coffee! Do you like coffee?";
-	$q_array[2] = "I like to drink coke! Do you like coke?";
-	$q_array[3] = "I like to drink sprite! Do you like sprite?";
-	$q_array[4] = "I like to drink beer! I hope you like beer?";
-	$q_array[5] = "How old do you think I am? Go drink more tea";
+	$q_array[1] = "I like to drink coffee not tea! Do you like coffee?";
+	$q_array[2] = "I like to drink coke not tea! Do you like coke?";
+	$q_array[3] = "I like to drink sprite not tea! Do you like sprite?";
+	$q_array[4] = "I like to drink beer not tea! I hope you like beer?";
+	$q_array[5] = "Green tea is good, do you agree?";
 	$q_array[6] = "What's your favorite color? Haha Green tea!";
 	$q_array[7] = "Drink that tea! Whats your favorite tea?!";
 	$q_array[8] = "No tea! Lets hava tea party? Green tea?!";
 	$q_array[9] = "What time do you like to drink tea at?";
 	$q_array[10] = "I like green tea! What about you?";
+	$q_array[11] = "What if green tea vanished from our planet? What would you do?";
+	$q_array[12] = "Stop talking about tea and go drink some, whats your favorite?";
 	
 	$q_size = (count($q_array) - 1);
 	$rand_range = rand(0, $q_size);
@@ -40,7 +42,7 @@ function tweetThis($search_term){
 	$posts = getTwitterSearchFeedByJSON($search_term);
 	$user_count = 0;
 
-	echo "Twitter bot being user: <strong>$bot_username</strong><br />";
+	echo "Twitter bot being user: <strong>$bot_username</strong><br /><br />";
 
 	for($i = 0; $i < 13; $i++) {	
 		//grab user, post from array, then increment user counter
@@ -72,7 +74,7 @@ function tweetThis($search_term){
 			echo "Oooops, almost just tweeted myself, nope I caught it!<br />";
 		}
 	}
-	echo "Searching and tweeting for: <strong>$search_term</strong><br />";
+	echo "<br />Searching and tweeting for: <strong>$search_term</strong><br />";
 }
 
 

@@ -16,6 +16,14 @@ for and tweeting back to about. Also add some personal
 quotes you want your bot to tweet back in the getQuote()
 function in zandermane_bot.php.
 
+As for running it in cron, you must use this command:
+
+$>php ./cron.php
+
+That will allow cron.php to use curl to execute the code 
+in zandermane_bot.php. You cannot directly put zandermane_bot.php
+directly in cron for it will throw errors.
+
     .--. 
    |o_o | 
    |:_/ | 
@@ -53,3 +61,4 @@ EX: $search = "beer";
 DESCRIPTION: change this to what you want your bot
 to search for and tweet back at. Should preferably 
 match whatever stupid quotes you have.
+
