@@ -12,11 +12,6 @@ password to this file:
 
 config.inc.php
 
-Then edit the "username:password" text on line 60 in
-the zandermane_bot.php file. This line you will need 
-to manually enter in the bots username and password
-at the end of the line.
-
 Edit your search criteria on the bottom of the 
 zandermane_bot.php file to what you will be searching
 for and tweeting back to about. Also add some personal
@@ -41,16 +36,6 @@ DESCRIPTION: this should be your bots username:password
 in place of the ""
 
 
-CONFIGURE EXTRA LINE TO ALLOW CURL POST
-FILE: zandermane_bot.php
-LINE: 60
-EX: "USERNAME:PASSWORD"); should be changed to:
-"myusername:ilikechocolate");
-DESCRIPTION: you want to change ONLY the all capital
-USERNAME and PASSWORD, do not remove the : in the
-middle of the string
-
-
 ADD YOUR OWN DAMN QUOTES:
 FILE: zandermane_bot.php
 LINE: 18
@@ -67,5 +52,3 @@ EX: $search = "beer";
 DESCRIPTION: change this to what you want your bot
 to search for and tweet back at. Should preferably 
 match whatever stupid quotes you have.
-
-

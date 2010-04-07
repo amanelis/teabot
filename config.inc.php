@@ -1,3 +1,3 @@
 <?PHP
-$bot_username = '';
-$bot_password = '';
+$bot_username = 'YOUR BOTS USERNAME';
+$bot_password = 'YOUR BOTS PASSWORD';
