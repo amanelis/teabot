@@ -33,7 +33,7 @@ LINE: the whole file is 3 lines, get a clue
 EX: $bot_username = 'myusername';
     $bot_password = 'ilikechocolate';
 DESCRIPTION: this should be your bots username:password
-in place of the ""
+in place of the 'single quotes'
 
 
 ADD YOUR OWN DAMN QUOTES:
