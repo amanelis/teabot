@@ -1,5 +1,5 @@
 <?PHP
-define('POST_URL', 'http://www.orfius.net/ztbot/zandermane_bot.php');
+define('POST_URL', 'http://www.YOURDOMAIN.com/ztbot/zandermane_bot.php');
 
 $ch = curl_init(POST_URL);
 curl_setopt($ch, CURL_POST, 1);
