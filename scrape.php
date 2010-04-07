@@ -5,9 +5,6 @@ require_once("dom.class.php");
 //include twitter api class
 require_once("twit.class.php");
 
-//include config file
-require_once("config.inc.php");
-
 /*
 Standard function that returns links or
 more so their 'href' source not that actual
