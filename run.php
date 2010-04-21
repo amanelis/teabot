@@ -18,3 +18,4 @@ $search = 'tea';
 
 //pass your search term in that bot will tweet back on
 tweetThis($search);
+?>
