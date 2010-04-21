@@ -1,10 +1,4 @@
 <?PHP
-//include the dom class
-require_once("dom.class.php");
-
-//include twitter api class
-require_once("twit.class.php");
-
 /*
 Standard function that returns links or
 more so their 'href' source not that actual
