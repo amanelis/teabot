@@ -2,15 +2,6 @@ ZTBot, written by Alex Manelis <amanelis@gmail.com>
 This is a twitter bot designed to be run with cron
 on a php server.
 
-    .--. 
-   |o_o | 
-   |:_/ | 
-  //   \ \ 
- (|     | ) 
-/'\_   _/`\ 
-\___)=(___/
-FOR THE LAZY READING IMPAIRED
-
 *******************************************************
 CONFIGURE YOUR BOT:
 FILE: includes/config.inc.php
